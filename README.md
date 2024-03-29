@@ -1,6 +1,9 @@
 # check-final-newline
 
 A linter checking if final newline is present in the repository text files.
+It fails on errors reported by GitHub like this:
+
+![example](.docs/example.png)
 
 ## Usage
 
