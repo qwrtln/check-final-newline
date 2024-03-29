@@ -1,4 +1,3 @@
-FROM alpine:3.19
-RUN apk add --no-cache git
+FROM alpine/git:2.43.0
 COPY lint.sh /lint.sh
 ENTRYPOINT ["/lint.sh"]
