@@ -4,7 +4,7 @@ ERRORS=0
 
 git config --global --add safe.directory /github/workspace
 
-for f in $(git ls-files)
+for f in $(git grep -Il '')
 do
   if [[ $(tail -c 1 $f) ]]; then
     echo $f
