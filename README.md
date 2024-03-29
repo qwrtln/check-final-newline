@@ -5,6 +5,10 @@ It fails on errors reported by GitHub like this:
 
 ![example](.docs/example.png)
 
+It runs on an alpine git image and uses standard Unix tools, therefore it's super fast:
+
+![runtime](.docs/runtime.png)
+
 ## Usage
 
 Create a workflow file at your repository's Workflow folder, like `.github/workflows/check-final-newline.yaml`:
