@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh -l
 
 ERRORS=0
 for f in $(git ls-files)

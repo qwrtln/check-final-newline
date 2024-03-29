@@ -1,0 +1,5 @@
+name: 'Check final newline'
+description: 'Check if all text files in the repository end with a newline'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
