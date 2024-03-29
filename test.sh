@@ -1,1 +1,0 @@
-echo "File without newline"
