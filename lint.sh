@@ -1,6 +1,9 @@
 #!/bin/sh -l
 
 ERRORS=0
+
+git config --global --add safe.directory /github/workspace
+
 for f in $(git ls-files)
 do
   if [[ $(tail -c 1 $f) ]]; then
