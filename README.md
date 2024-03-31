@@ -29,7 +29,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check final newline
-        uses: qwrtln/check-final-newline@1.0.0
+        uses: qwrtln/check-final-newline@v1.0.0
 ```
 
 This will trigger a validation of all the text files in your repository.
