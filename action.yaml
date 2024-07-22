@@ -1,8 +1,15 @@
 name: 'Check final newline'
 description: 'Check if all text files in the repository end with a newline'
+inputs:
+  commit_changes:
+    description: 'Whether to commit changes or not'
+    required: false
+    default: 'false'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - "${{ inputs.commit_changes }}"
 branding:
   icon: 'arrow-up-left'
   color: 'green'
